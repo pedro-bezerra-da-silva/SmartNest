@@ -11,14 +11,28 @@ body{
     font-family: Arial;
     text-align: center;
     margin-top: 25px;
-
+}
+#voltar{
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: lighter;
+    font-size: 12pt;
+    font-family: "verdana";
+    position: fixed;  
+    top: 25px;
+    left: 10px;
 }
 form{
     background-color: #fff;
     width: 95%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 150px;
+    margin-top: 50px;
     border-radius: 40px;
     padding: 50px 10px ;
     text-align: center;
@@ -37,7 +51,7 @@ label{
     font-weight: bold;
 }
 
-input[type=email],input[type=password]{
+input[type=email],input[type=password],[type=name]{
     width: 95%;
     padding: 10px;
     border:0;
@@ -46,18 +60,19 @@ input[type=email],input[type=password]{
     background-color: #eee;
     outline-color: aliceblue;
 }
-#lembrete{
+#contrato{
     width: 95%;
     display: flex;
 }
-#lembrete span:nth-of-type(2){
+#contrato span:nth-of-type(2){
     font-family: "arial";
     font-size: 10pt;
-    text-align: left;
+    /* width: 60%; */
+    text-align: right;
     color: blue;
 
 }
-#lembrete span:nth-of-type(1){
+#contrato span:nth-of-type(1){
     font-family: "arial";
     font-size: 10pt;
     width: 30%;
@@ -78,11 +93,16 @@ form p{
     color: gray;
     margin-top: 20px;
 }
+#welcome{
+    margin-top: 0;
+    margin-bottom: 25px;
+}
 #redes img{
     width: 30px;
     height: 30px;
 }
 #redes{
+    margin-top: 15px;
     display: flex;
     justify-content: center;
 }
